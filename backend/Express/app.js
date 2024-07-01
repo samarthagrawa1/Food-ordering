@@ -191,7 +191,7 @@ app.post("/user/add",async(req,res)=>{
 
 require('dotenv').config()
 passport.use(new GoogleStrategy({ 
-	clientID:"274044072209-tjt191ofpglvuqluc70i0vleiu6a538m.apps.googleusercontent.com", // Your Credentials here. 
+	clientID:`${process.env.id}`, // Your Credentials here. 
 	clientSecret:`${process.env.se}`, // Your Credentials here. 
 	callbackURL:"/auth/google/home", 
 	passReqToCallback:true,
