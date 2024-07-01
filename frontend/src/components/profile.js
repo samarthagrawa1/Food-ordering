@@ -1,0 +1,30 @@
+const profs=[
+    {
+        index:'0',
+    id:'1',
+    name:'Amit',
+    mail:"amit1@gmail.com",
+    no:"123456789",
+    pr:'500',
+    imgurl:"https://www.india.com/wp-content/uploads/2020/07/amitabh-bachchan-health-update-day-1-main.jpg"
+    },
+    {
+        index:'2',
+        id:"2",
+        name:"Amit2",
+        mail:"amit2@gmail.com",
+        no:"123456789",
+        pr:'250',
+        imgurl:"https://www.india.com/wp-content/uploads/2020/07/amitabh-bachchan-health-update-day-1-main.jpg"
+        },
+        {
+            index:'3',
+            id:"3",
+            name:"Amit3",
+            mail:"amit3@gmail.com",
+            no:"123456789",
+            pr:'450',
+            imgurl:"https://www.india.com/wp-content/uploads/2020/07/amitabh-bachchan-health-update-day-1-main.jpg"
+            },
+]
+export default profs;

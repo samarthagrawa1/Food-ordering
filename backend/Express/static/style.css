@@ -1,0 +1,60 @@
+*{
+    font-family:Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.inp{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 33%;
+}
+
+
+h1{
+    background-color: blue;
+}
+#Submit:hover
+{
+    cursor: pointer;
+}
+body::before{
+    opacity: 0.8;
+    content: "";
+    height: 150%;
+    z-index: -1;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('https://tse1.mm.bing.net/th?id=OIP.PKMrrxoFUPNbcgCkdM8IxAHaFj&pid=Api&P=0&h=180') no-repeat center center;
+    background-size: cover;
+    
+
+}
+.cont{
+    margin: 12px auto;
+    background-color: yellow;
+    max-width: 70%;
+    background: url('./th.jpeg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 3px 17px;
+}
+nav{
+    background-color: aqua;
+    padding: 12px 12px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}

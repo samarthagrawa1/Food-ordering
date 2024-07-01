@@ -1,0 +1,32 @@
+.services-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.services-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-container p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.services-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-container li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.services-container li:hover {
+    background-color: #f1f1f1;
+}
