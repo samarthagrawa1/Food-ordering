@@ -189,10 +189,10 @@ app.post("/user/add",async(req,res)=>{
         
 })
 
-
+require('dotenv').config()
 passport.use(new GoogleStrategy({ 
 	clientID:"274044072209-tjt191ofpglvuqluc70i0vleiu6a538m.apps.googleusercontent.com", // Your Credentials here. 
-	clientSecret:"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", // Your Credentials here. 
+	clientSecret:`${process.env.se}`, // Your Credentials here. 
 	callbackURL:"/auth/google/home", 
 	passReqToCallback:true,
     scope:['profile','email']
